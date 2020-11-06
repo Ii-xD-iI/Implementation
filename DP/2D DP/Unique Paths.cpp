@@ -1,6 +1,7 @@
 /*
-can either climb 1 or 2 steps.
-In how many distinct ways can you climb to the top?
+We can only move either down or right at any point in time.
+We are trying to reach the bottom-right corner of the grid.
+How many possible unique paths are there?
 */
 
 #include "bits/stdc++.h"
