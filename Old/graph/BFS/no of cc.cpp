@@ -54,6 +54,7 @@ void BFS(int A) {
         int CurrentNode = Layer.front();
 
         for(auto Neighbour: AdjList[CurrentNode]) {
+            if(visited[Neighbour]) continue;
             if(not visited[Neighbour]) {
                 visited[Neighbour] = true;
                 Layer.push(Neighbour);
